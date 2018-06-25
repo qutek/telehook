@@ -12,15 +12,15 @@ const runTelehook = (token, hook, config) => {
 	let run = telehook(token, hook, config);
 
 	run.on('data', function(data){
-		console.log();
-		console.group(chalk.green("+++++++++++++++++\nDATA RECEIVED\n+++++++++++++++++"));
+		console.group();
+		console.log(chalk.green("+++++++++++++++++\nDATA RECEIVED\n+++++++++++++++++"));
 		console.log(chalk.white(JSON.stringify(data, null, 2)));
 		console.groupEnd();
 	})
 
 	run.on('error', function(error){
-		console.log();
-		console.group(chalk.red("+++++++++++++++++\nERROR\n+++++++++++++++++"));
+		console.group();
+		console.log(chalk.red("+++++++++++++++++\nERROR\n+++++++++++++++++"));
 		console.error(error);
 		console.groupEnd();
 	})
@@ -32,8 +32,8 @@ const runTelehook = (token, hook, config) => {
 	})
 
 	run.on('forward.error', function(error){
-		console.log();
-		console.group(chalk.red("+++++++++++++++++\nFORWARD ERROR\n+++++++++++++++++"));
+		console.group();
+		console.log(chalk.red("+++++++++++++++++\nFORWARD ERROR\n+++++++++++++++++"));
 		console.error(error);
 		console.groupEnd();
 	})

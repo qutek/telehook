@@ -1,4 +1,4 @@
-const telehook = require('./'); // require('telehook')
+const telehook = require('../index'); // require('telehook')
 
 var hook = telehook('YOUR_BOT:API_KEY', 'http://localhost/your-hook/');
 hook.on('data', function(data){

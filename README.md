@@ -44,7 +44,7 @@ hook.on('forward.error', function(error){
 Make sure you have install Telehook CLI with
 > $ `npm install -g telehook`
 
-use command run and pass the bot api key as well as the hook ur.
+use command run and pass the bot api key as well as the hook url.
 ```sh
 telehook run <botToken> <hookUrl>
 ```

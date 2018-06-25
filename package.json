@@ -1,6 +1,6 @@
 {
   "name": "telehook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Trigger localhost / non-https telegram hook",
   "main": "index.js",
   "scripts": {

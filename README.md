@@ -2,6 +2,11 @@
 
 Telegram bot development tool for triggering localhost / non-https hook with [getUpdates](https://core.telegram.org/bots/api#getupdates)
 
+It will listen for incoming updates from Telegram.org and if there any updates it will forward the messages to your local webhook.
+
+Please make sure there is no active webhook registered on your bot, you can check it here `https://api.telegram.org/bot<bot-token>/getWebhookInfo`
+
+if not so, you can remove your active webhook by accessing `https://api.telegram.org/bot<bot-token>/setWebhook?url=`
 
 ## Installation
 >$ `npm install telehook --save`
@@ -42,9 +47,9 @@ hook.on('forward.error', function(error){
 
 ## CLI
 Make sure you have install Telehook CLI with
-> $ `npm install -g telehook`
+>$ `npm install -g telehook`
 
-use command run and pass the bot api key as well as the hook url.
+use command run and pass the bot api key as well as the hook ur.
 ```sh
 telehook run <botToken> <hookUrl>
 ```

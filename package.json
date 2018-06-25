@@ -19,7 +19,7 @@
     "development"
   ],
   "author": "Lafif Astahdziq <hello@lafif.me>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/qutek/telehook/issues"
   },

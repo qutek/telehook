@@ -23,7 +23,7 @@ const checkUpdates = (processed) => {
 
 		let formData = {};
 
-		if (config.timeout !== undefined) formData.timeout = config.timeout;
+		if (config.settings.timeout !== undefined) formData.timeout = config.settings.timeout;
 	   if (config.offset !== undefined) formData.offset = config.offset;
 	   if (config.limit !== undefined) formData.limit = config.limit;
 

@@ -20,6 +20,9 @@
   ],
   "author": "Lafif Astahdziq <hello@lafif.me>",
   "license": "MIT",
+  "bin": {
+    "telehook": "./cli.js"
+  },
   "bugs": {
     "url": "https://github.com/qutek/telehook/issues"
   },

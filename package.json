@@ -1,0 +1,35 @@
+{
+  "name": "telehook",
+  "version": "1.0.0",
+  "description": "Trigger localhost / non-https telegram hook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/qutek/telehook.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "telegram",
+    "hook",
+    "bot",
+    "development"
+  ],
+  "author": "Lafif Astahdziq <hello@lafif.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qutek/telehook/issues"
+  },
+  "homepage": "https://github.com/qutek/telehook#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "clui": "^0.3.6",
+    "commander": "^2.15.1",
+    "extend": "^3.0.1",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
+  }
+}

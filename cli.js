@@ -45,7 +45,7 @@ program
 
 program
 	.command('run <token> <hook>')
-	.alias('r')
+	.alias('*')
 	.option(
 		'-i, --interval [interval]',
 		'Set the interval'

@@ -1,0 +1,132 @@
+repo_name: qutek/telehook
+report_id: 8ed2a5708efd2fa242235e29fb3df2b1
+repo_type: Public
+timestamp: '2023-11-14T15:34:51+00:00'
+requested_by: qutek
+provider: github
+branch: develop
+detected_tools_count: 9
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Lafif Astahdziq
+  last_updated_on: 2018-06-25 14:02:05.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source: package.json
+  last_updated_by: Lafif Astahdziq
+  last_updated_on: 2018-06-25 14:02:05.000000000 Z
+- name: clui
+  description: A Node.js toolkit for drawing nice command line tables
+  package_url: https://www.npmjs.com/clui
+  version: 0.3.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17397/default_7b8a4dd0459c1d55636639cb97d216b33a363a7f.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Lafif Astahdziq
+  last_updated_on: 2018-06-25 14:02:05.000000000 Z
+- name: commander
+  description: The complete solution for node.js command-line programs
+  package_url: https://www.npmjs.com/commander
+  version: 2.15.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15829/default_50135978d26eba7c09093ceb23b96d522898e4eb.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Lafif Astahdziq
+  last_updated_on: 2018-06-25 14:02:05.000000000 Z
+- name: extend
+  description: Port of jQuery.extend for node.js and the browser
+  package_url: https://www.npmjs.com/extend
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16161/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Lafif Astahdziq
+  last_updated_on: 2018-06-25 14:02:05.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution in extend
+    cve_id: CVE-2018-16492
+    cve_url: https://github.com/advisories/GHSA-qrmc-fj45-qfc2
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.0.2
+- name: request
+  description: Simplified HTTP request client
+  package_url: https://www.npmjs.com/request
+  version: 2.87.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Lafif Astahdziq
+  last_updated_on: 2018-06-25 14:02:05.000000000 Z
+  vulnerabilities:
+  - name: Server-Side Request Forgery in Request
+    cve_id: CVE-2023-28155
+    cve_url: https://github.com/advisories/GHSA-p8p7-x288-28g6
+    detected_date: Mar 17
+    severity: moderate
+    first_patched: 
+- name: request-promise
+  description: The simplified HTTP request client 'request' with Promise support
+  package_url: https://www.npmjs.com/request-promise
+  version: 4.2.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16072/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Lafif Astahdziq
+  last_updated_on: 2018-06-25 14:02:05.000000000 Z
